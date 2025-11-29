@@ -24,7 +24,7 @@ export function About() {
             transition={{ duration: 0.6 }}
             className="relative"
           >
-            <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-gradient-to-br from-blue-100 to-purple-100">
+            <div className="aspect-4/3 rounded-2xl overflow-hidden bg-linear-to-br from-blue-100 to-purple-100">
               <ImageWithFallback 
                 src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50JTIwdGVhbXxlbnwxfHx8fDE3NjM5NzQwMTB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                 alt="Our Team"
@@ -33,7 +33,7 @@ export function About() {
             </div>
             
             {/* Decorative element */}
-            <div className="absolute -top-6 -right-6 w-32 h-32 bg-gradient-to-br from-purple-400 to-pink-400 rounded-2xl opacity-20 blur-2xl"></div>
+            <div className="absolute -top-6 -right-6 w-32 h-32 bg-linear-to-br from-purple-400 to-pink-400 rounded-2xl opacity-20 blur-2xl"></div>
           </motion.div>
 
           {/* Content */}
@@ -59,7 +59,7 @@ export function About() {
             <div className="grid sm:grid-cols-2 gap-4 pt-4">
               {highlights.map((highlight) => (
                 <div key={highlight} className="flex items-start gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
                   <span className="text-gray-700">{highlight}</span>
                 </div>
               ))}

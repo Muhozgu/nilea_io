@@ -1,5 +1,5 @@
 import { Brain, Code, LineChart, Cpu, Zap, Shield } from "lucide-react";
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "./ui/card";
+import { Card, CardHeader, CardTitle, CardDescription } from "./ui/card";
 import { motion } from "motion/react";
 
 const services = [
@@ -69,7 +69,7 @@ export function Services() {
             >
               <Card className="h-full hover:shadow-lg transition-shadow border-gray-200">
                 <CardHeader>
-                  <div className={`w-12 h-12 rounded-lg bg-gradient-to-br ${service.gradient} flex items-center justify-center mb-4`}>
+                  <div className={`w-12 h-12 rounded-lg bg-linear-to-br ${service.gradient} flex items-center justify-center mb-4`}>
                     <service.icon className="w-6 h-6 text-white" />
                   </div>
                   <CardTitle>{service.title}</CardTitle>

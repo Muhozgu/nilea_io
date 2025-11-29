@@ -4,7 +4,7 @@ import { Textarea } from "./ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "./ui/card";
 import { Mail, MessageSquare, Calendar } from "lucide-react";
 import { motion } from "motion/react";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 
 export function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
@@ -40,7 +40,7 @@ export function Contact() {
               <Card className="border-gray-200">
                 <CardContent className="pt-6">
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center shrink-0">
                       <Mail className="w-6 h-6 text-blue-600" />
                     </div>
                     <div>
@@ -64,7 +64,7 @@ export function Contact() {
               <Card className="border-gray-200">
                 <CardContent className="pt-6">
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center shrink-0">
                       <Calendar className="w-6 h-6 text-purple-600" />
                     </div>
                     <div>
@@ -88,7 +88,7 @@ export function Contact() {
               <Card className="border-gray-200">
                 <CardContent className="pt-6">
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center shrink-0">
                       <MessageSquare className="w-6 h-6 text-green-600" />
                     </div>
                     <div>
