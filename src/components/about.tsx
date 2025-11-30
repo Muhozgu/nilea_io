@@ -1,5 +1,5 @@
 import { CheckCircle2 } from "lucide-react";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
+// import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { motion } from "motion/react";
 
 const highlights = [
@@ -25,11 +25,11 @@ export function About() {
             className="relative"
           >
             <div className="aspect-4/3 rounded-2xl overflow-hidden bg-linear-to-br from-blue-100 to-purple-100">
-              <ImageWithFallback 
+              {/* <ImageWithFallback 
                 src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50JTIwdGVhbXxlbnwxfHx8fDE3NjM5NzQwMTB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                 alt="Our Team"
                 className="w-full h-full object-cover"
-              />
+              /> */}
             </div>
             
             {/* Decorative element */}

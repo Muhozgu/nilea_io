@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
+// import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { motion } from "motion/react";
 
 export function Hero() {
@@ -65,11 +65,11 @@ export function Hero() {
             className="relative"
           >
             <div className="aspect-square rounded-2xl overflow-hidden bg-linear-to-br from-blue-100 to-purple-100">
-              <ImageWithFallback 
+              {/* <ImageWithFallback 
                 src="https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NjM5Njc2NTl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                 alt="AI Technology"
                 className="w-full h-full object-cover"
-              />
+              /> */}
             </div>
             
             {/* Floating card */}
